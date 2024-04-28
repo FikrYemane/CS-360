@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDB7E"
+
+    >
+
+
+
+    <EditText
+        android:id="@+id/menu_title"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Welcome"
+        android:textSize="35dp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/weight_history"
+        android:layout_width="312dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:text="Weight History"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:background="#FFFCB0"
+
+        />
+
+    <Button
+        android:id="@+id/add_weight"
+        android:layout_width="312dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Add Daily Weight"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:background="#FFFCB0"
+        />
+
+    <Button
+        android:id="@+id/future_goals"
+        android:layout_width="312dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Future Goals"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:background="#FFFCB0"
+        />
+
+    <Button
+        android:id="@+id/notification"
+        android:layout_width="312dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Notification"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:background="#FFFCB0"
+        />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDB7E"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Switch
+            android:id="@+id/daily_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="100px"
+            android:layout_weight="1"
+            android:text="Daily Reminder"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/weight_goal"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="100px"
+            android:layout_weight="1"
+            android:text="Weight Goal"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <Switch
+            android:id="@+id/half_way_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="100px"
+            android:layout_weight="1"
+            android:text="Half Way Reminder"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <Switch
+            android:id="@+id/congrats"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="100px"
+            android:layout_weight="1"
+            android:text="Congratulations"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <Switch
+            android:id="@+id/update_daily_weight"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="100px"
+            android:layout_weight="1"
+            android:text="Update Daily weight"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

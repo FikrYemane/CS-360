@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFDB7E">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Goals"
+        android:textColor="@color/black"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/weight_goal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="200px"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Add Weight Goal" />
+
+    <EditText
+        android:id="@+id/goal_date"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="200px"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Add Weight Goal Date"/>
+
+    <Button
+        android:id="@+id/save_goal"
+        android:layout_width="278dp"
+        android:layout_height="77dp"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/goal_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>
